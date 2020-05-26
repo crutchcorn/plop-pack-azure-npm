@@ -27,5 +27,9 @@
   "bugs": {
     "url": "https://github.com/plopjs/plop-pack-azure-npm/issues"
   },
-  "homepage": "https://github.com/plopjs/plop-pack-azure-npm#readme"
+  "homepage": "https://github.com/plopjs/plop-pack-azure-npm#readme",
+  "dependencies": {
+    "chalk": "^4.0.0",
+    "open": "^7.0.4"
+  }
 }

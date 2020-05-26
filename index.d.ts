@@ -1,3 +1,3 @@
-import {CustomActionFunction} from "node-plop";
-const val: CustomActionFunction;
-export default val;
+import {NodePlopAPI} from "node-plop";
+
+export default function (plop: NodePlopAPI): void;

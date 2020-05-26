@@ -1,0 +1,12 @@
+registry=https://{{registryUrl}}/registry/
+
+always-auth=true
+
+; begin auth token
+//{{registryUrl}}/registry/:username={{projectName}}
+//{{registryUrl}}/registry/:_password={{base64Token}}
+//{{registryUrl}}/registry/:email=npm requires email to be set but doesn't use the value
+//{{registryUrl}}/:username={{projectName}}
+//{{registryUrl}}/:_password={{base64Token}}
+//{{registryUrl}}/:email=npm requires email to be set but doesn't use the value
+; end auth token
